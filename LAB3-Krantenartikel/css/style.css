@@ -1,15 +1,25 @@
 body {
-  background-color: darkgreen;
+  background-color: lightblue;
 }
 
-vloot1{
+.foto1{
   float: right;
+  margin: 5px;
+  border: 2px solid black;
 }
 
-vloot1.jpg{
-  float: right;
+.foto2{
+  float:left;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.foto3{
+  float:right;
+  margin: 5px;
+  border: 2px solid black;
 }
 
 p{
-  color: red;
+  font-size: 20px;
 }
