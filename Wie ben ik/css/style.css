@@ -1,0 +1,62 @@
+.body1{
+  background-image: url("../images/achtergrond1.jpg");
+  background-repeat: no-repeat;
+}
+
+.body2{
+
+}
+
+.body3{
+
+}
+
+.body4{
+
+}
+
+.Zevenster{
+  width: 300px;
+  float: right;
+}
+
+.Gilde{
+  width: 121px;
+  float: right;
+  margin-left: 5px;
+}
+
+.Davinci{
+  width: 60px;
+  float: left;
+}
+
+/* de navigatiebar */
+.navbar{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* zet de navigatiebar op een gefixte positie */
+  top: 0; /* zet de navigatiebar aan de bovenkant van de pagina */
+  width: 100% /* de volledige lengte van de pagina */
+}
+
+/* links in de navigatiebar */
+.navbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* veranderd de achtergrond als je er met je muis overgaat */
+.navbar a:hover{
+  background: pink;
+  color: black;
+}
+
+/* main content */
+.main{
+  margin-top: 30px; /* voegt een top marge toe om content overlay te vermijden */
+}
