@@ -1,19 +1,31 @@
 .body1{
   background-image: url("../images/achtergrond1.jpg");
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .body2{
-  background-color: black;
+  background-image: url("../images/achtergrond2.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .body3{
-  background-color: black;
+  background-image: url("../images/achtergrond3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .body4{
   background-image: url("../images/achtergrond4.jpg");
   background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.body5{
+  background-image: url("../images/achtergrond5.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .Dirk{
@@ -46,10 +58,22 @@
   margin: 5px;
 }
 
+.CodeLogo{
+  width: 100px;
+  float: right;
+  margin: 5px;
+}
+
+.Network{
+  width: 80px;
+  float: right;
+  margin: 5px;
+}
+
 /* de navigatiebar */
 .navbar{
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0,0,0,.6);
   position: fixed; /* zet de navigatiebar op een gefixte positie */
   top: 0; /* zet de navigatiebar aan de bovenkant van de pagina */
   width: 100% /* de volledige lengte van de pagina */
@@ -83,12 +107,23 @@ section{
 .box{
   position: center;
   max-width: 1080px;
-  padding: 50px;
-  background: rgba(255,255,255,.3);
+  padding: 10px;
+  background: rgba(255,255,255,.4);
 }
 
 .Pieter{
-  width: 120px;
+  width: 200px;
   margin: 10px;
   float: right;
+}
+
+.footer{
+  margin: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  text-align: center;
 }
