@@ -4,31 +4,46 @@
 }
 
 .body2{
-
+  background-color: black;
 }
 
 .body3{
-
+  background-color: black;
 }
 
 .body4{
+  background-image: url("../images/achtergrond4.jpg");
+  background-repeat: no-repeat;
+}
 
+.Dirk{
+  width: 70px;
+  float: right;
+  margin: 5px;
+}
+
+.Action{
+  width: 121px;
+  float: right;
+  margin: 5px;
 }
 
 .Zevenster{
   width: 300px;
   float: right;
+  margin: 5px;
 }
 
 .Gilde{
   width: 121px;
   float: right;
-  margin-left: 5px;
+  margin: 5px;
 }
 
 .Davinci{
   width: 60px;
   float: left;
+  margin: 5px;
 }
 
 /* de navigatiebar */
@@ -56,7 +71,24 @@
   color: black;
 }
 
+section{
+  position: center;
+  padding: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
 /* main content */
-.main{
-  margin-top: 30px; /* voegt een top marge toe om content overlay te vermijden */
+.box{
+  position: center;
+  max-width: 1080px;
+  padding: 50px;
+  background: rgba(255,255,255,.3);
+}
+
+.Pieter{
+  width: 120px;
+  margin: 10px;
+  float: right;
 }
