@@ -96,6 +96,7 @@
 }
 
 section{
+  margin-top: 100px;
   position: center;
   padding: 250px;
   height: 50px;
@@ -112,6 +113,7 @@ section{
 }
 
 .Pieter{
+  border-radius: 100px;
   width: 200px;
   margin: 10px;
   float: right;
